@@ -1,0 +1,1 @@
+/usr/bin/c++ -std=c++11 -g CMakeFiles/test.dir/test.cpp.o CMakeFiles/test.dir/root/test/chat/src/server/db/db.cpp.o -o test  -lmysqlclient -lmuduo_base -lmuduo_net -lpthread 
