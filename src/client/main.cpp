@@ -100,11 +100,21 @@ int main(int argc, char **argv)
         cout << "3. quit" << endl;
         cout << "========================" << endl;
         cout << "choice:";
+        string begin_str;
         int choice = 0;
-        cin >> choice;
-        cin.get(); // 璇绘帀缂撳啿鍖烘畫鐣欑殑鍥炶溅
+        cin >> begin_str;
+        cin.get(); // 读掉缓冲区残留的回车
 
-        switch (choice)
+        //解决输入字符串不为一个位数的整数问题
+        if(begin_str.size() != 1) 
+        {
+            cerr << "invalid input." << endl;
+            continue;
+        }
+
+        choice = begin_str[0] - '0';
+
+        switch (static_cast<int>(choice))
         {
         case 1 /* 鐧诲綍 */:
         {
