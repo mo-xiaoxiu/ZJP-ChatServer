@@ -188,3 +188,29 @@ tcp        0      0 127.0.0.1:6379          0.0.0.0:*               LISTEN      
 tcp6       0      0 ::1:6379                :::*                    LISTEN      598/redis-server 12 
 ```
 
+
+
+
+
+## 部分图解
+
+### Chatservice
+
+![](https://myblog-1308923350.cos.ap-guangzhou.myqcloud.com/img/chatservice.png)
+
+### model
+
+![](https://myblog-1308923350.cos.ap-guangzhou.myqcloud.com/img/model.png)
+
+### Nginx
+
+![](https://myblog-1308923350.cos.ap-guangzhou.myqcloud.com/img/Nginx.png)
+
+### Redis
+
+![](https://myblog-1308923350.cos.ap-guangzhou.myqcloud.com/img/Nginx_redis.png)
+
+### client
+
+![](https://myblog-1308923350.cos.ap-guangzhou.myqcloud.com/img/client_fin.png)
+
